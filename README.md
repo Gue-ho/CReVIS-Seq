@@ -4,7 +4,7 @@
 -------
 CReVIS-Seq is licensed under the new BSD licence.
 
-Copyright (c) 2018, Gue-ho Hwang and Sangsu Bae
+Copyright (c) 2019, Gue-ho Hwang and Sangsu Bae
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
