@@ -1,5 +1,9 @@
 # CReVIS-Seq
 
+Lentiviruses have been widely used as a means of transferring exogenous DNAs into human cells to treat various genetic diseases. Lentiviral vectors are fundamentally integrated into the host genome but their integration sites are generally unpredictable, which may increase the uncertainty about their use in therapeutics. To determine viral integration sites in the host genome, several PCR-based methods have been developed. However, such methods require a well-designed primer set and are less accurate especially for cases in which a high copy number of viral DNAs are inserted in a clone or bulk cell populations. Here we describe CReVIS-seq, a highly efficient, genome-wide method for detecting viral insertion sites using high-throughput sequencing, which is based on in vitro circularization and subsequent cleavage of genomic DNAs in a CRISPR guide RNA-specific manner. Because CReVIS-seq does not require PCR amplification for the target enrichment step, it is free from PCR-derived biases and can be easily used to identify multiple target sites simultaneously, even in bulk cell populations. Furthermore, because of its versatile nature, CReVIS-seq can also be used to detect other structural variations that occur in various genomes. 
+
+citation : Kim HS et al. CReVIS-seq: a highly accurate and multiplexable method for genome-wide mapping of lentiviral integration sites
+
 # License
 -------
 CReVIS-Seq is licensed under the new BSD licence.
