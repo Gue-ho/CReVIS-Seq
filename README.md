@@ -4,6 +4,18 @@ Lentiviruses have been widely used as a means of transferring exogenous DNAs int
 
 citation : Kim HS et al. CReVIS-seq: a highly accurate and multiplexable method for genome-wide mapping of lentiviral integration sites
 
+# Usage
+
+CReVIS-Seq requires Python3 and reference file which is indexed to bwa.
+
+CRISPR-Sub can run with:
+
+    python3 CReVIS_seq.py {LTR sequence} {target sequence} {NGS file} {output file name} {reference genome directory}
+
+Example Code:
+ 
+    python3 CReVIS_seq.py GGGTCTCTCTGGTTAGACCAGATCTGAGCCTGGGAGCTCTCTGGCTAACTAGGGAACCCACTGCTTAAGCCTCAATAAAGCTTGCCTTGAGTGCTTCAAGTAGTGTGTGCCCGTCTGTTGTGTGACTCTGGTAACTAGAGATCCCTCAGACCCTTTTAGTCAGTGTGGAAAATCTCTAGCA ACACTGACTAAAAGGGTCTG 10_1t.fastq -input2 10_2t.fastq result /directory/of/your/reference/genome/
+
 # License
 -------
 CReVIS-Seq is licensed under the new BSD licence.
